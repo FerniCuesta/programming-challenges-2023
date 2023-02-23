@@ -76,12 +76,12 @@ def hacker_translator(text):
     return final_text
 
 
-# Imput text
-imput_text = input("Write the text to transform in to leet\n")
+# input text
+input_text = input("Write the text to transform in to leet\n")
 
-print("Imput text:\n", imput_text)
+print("input text:\n", input_text)
 
 # Hacker text
-hacker_text = hacker_translator(imput_text)
+hacker_text = hacker_translator(input_text)
 
 print("Hacker text:\n", hacker_text)

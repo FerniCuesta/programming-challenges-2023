@@ -22,7 +22,7 @@ gane cada punto del juego.
 
 English
 
-Write a programme that shows whow takes place a tennis game and who wins.
+Write a programme that shows how takes place a tennis game and who wins.
 The programme receives a secuence formed by "P1" (Player 1) or "P2" (Player 2), depending on
 who wins each point of the game.
 
@@ -39,3 +39,7 @@ who wins each point of the game.
 - If you want, you can control errors in data entries.
 - Consult the game rules if you have doubts about the puntuation system.
 """
+
+finished = False
+
+while not finished:
