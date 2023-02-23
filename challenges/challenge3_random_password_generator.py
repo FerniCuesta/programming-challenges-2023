@@ -31,4 +31,4 @@ def random_password_generator():
 
 # lets generate some random passwords!
 for i in range(10):
-    random_password_generator()
+    print(random_password_generator())
