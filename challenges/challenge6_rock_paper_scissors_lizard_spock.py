@@ -66,18 +66,15 @@ results = ([[0, 2, 1, 1, 2],
 
 
 options = {
-    "🗿": 0,
-    "📄": 1,
-    "✂️": 2,
-    "🦎": 3,
-    "🖖": 4
+    "rock": 0,
+    "paper": 1,
+    "scissors": 2,
+    "lizard": 3,
+    "spock": 4
 }
 
 
 puntuation = [0, 0]
-
-option_p1 = 0
-option_p2 = 0
 
 
 def rock_paper_scissors_lizard_spock(games):
@@ -88,15 +85,19 @@ def rock_paper_scissors_lizard_spock(games):
         update_score(play, puntuation)
 
     # print who wins
-    return f"{winner(puntuation[0], puntuation[1])}"
+    print(f"{winner(puntuation[0], puntuation[1])}")
 
 
 # lets play some matches
 print("Match 1: ")
-rock_paper_scissors_lizard_spock([("🗿", ""), ("✂️", "📄"), ("🖖", "📄")])
+print(rock_paper_scissors_lizard_spock(
+    [("rock", "paper"), ("rock", "scissors"), ("scissors", "paper")]))
 
-# print("\nMatch 2: ")
-# rock_paper_scissors_lizard_spock()
+print("\nMatch 2: ")
+print(rock_paper_scissors_lizard_spock(
+    [("rock", "spock"), ("scissors", "lizard"), ("spock", "lizard")]))
 
-# print("\nMatch 3: ")
-# rock_paper_scissors_lizard_spock()
+
+print("\nMatch 3: ")
+print(rock_paper_scissors_lizard_spock(
+    [("paper", "paper"), ("spock", "rock"), ("paper", "rock")]))
