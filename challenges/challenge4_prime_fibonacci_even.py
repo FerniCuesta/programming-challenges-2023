@@ -21,7 +21,7 @@ Example:
 def is_prime(number):
     """Return True if is a prime number and False if not"""
     for i in range(2, number):
-        if (number % i == 0):
+        if number % i == 0:
             return False
 
     return True
@@ -29,7 +29,7 @@ def is_prime(number):
 
 def is_even(number):
     """Return True if is an even number and False if is odd"""
-    return (number % 2 == 0)
+    return number % 2 == 0
 
 
 def is_fibonacci(number):
@@ -40,7 +40,7 @@ def is_fibonacci(number):
     while aux < number:
         aux = f_1 + f_2
 
-        if (aux == number):
+        if aux == number:
             return True
 
         f_1 = f_2
