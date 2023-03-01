@@ -43,11 +43,11 @@ def winner(puntuation_1, puntuation_2):
     """Function that prints the result of the game"""
     print("Result of the game: ")
     if puntuation_1 > puntuation_2:
-        print("Player 1 wins!!")
+        return ("Player 1 wins!!")
     elif puntuation_2 > puntuation_1:
-        print("Player 2 wins!!")
+        return ("Player 2 wins!!")
     else:
-        print("Tie")
+        return ("Tie")
 
 
 def update_score(play_result, array):
@@ -56,6 +56,8 @@ def update_score(play_result, array):
         array[0] += 1
     elif play_result == 2:
         array[1] += 1
+
+    return
 
 
 results = ([[0, 2, 1, 1, 2],
@@ -74,10 +76,9 @@ options = {
 }
 
 
-puntuation = [0, 0]
-
-
 def rock_paper_scissors_lizard_spock(games):
+    puntuation = [0, 0]
+
     for game in games:
         play = results[options[f"{game[0]}"]][options[f"{game[1]}"]]
 
@@ -85,19 +86,22 @@ def rock_paper_scissors_lizard_spock(games):
         update_score(play, puntuation)
 
     # print who wins
-    print(f"{winner(puntuation[0], puntuation[1])}")
+    return f"{winner(puntuation[0], puntuation[1])}"
 
 
 # lets play some matches
+
+# Win Player 1
 print("Match 1: ")
 print(rock_paper_scissors_lizard_spock(
     [("rock", "paper"), ("rock", "scissors"), ("scissors", "paper")]))
 
+# Win Player 2
 print("\nMatch 2: ")
 print(rock_paper_scissors_lizard_spock(
     [("rock", "spock"), ("scissors", "lizard"), ("spock", "lizard")]))
 
-
+# Win
 print("\nMatch 3: ")
 print(rock_paper_scissors_lizard_spock(
-    [("paper", "paper"), ("spock", "rock"), ("paper", "rock")]))
+    [("paper", "paper"), ("spock", "rock"), ("rock", "paper")]))
