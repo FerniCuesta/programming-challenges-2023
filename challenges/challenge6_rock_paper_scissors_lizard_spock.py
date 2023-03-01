@@ -10,7 +10,7 @@ papel, tijera, lagarto, spock.
 - Debes buscar información sobre cómo se juega con estas 5 posibilidades.
 
 Como explica Sheldon, "Tijeras cortan papel, papel cubre piedra, piedra aplasta lagarto,
-lagarto envenena a Spock, Spock destruye tijeras, tijeras decapitan lagarto, 
+lagarto envenena a Spock, Spock destruye tijeras, tijeras decapitan lagarto,
 lagarto come papel, papel desaprueba a Spock, Spock vaporiza piedra, y como siempre,
 piedra aplasta tijeras."
 -------------------------------------------------------------------------------
@@ -24,9 +24,9 @@ Create a programme that calculates who wins more matches in rock, paper,
   "✂️" (scissors), "🦎" (lizard) o "🖖" (spock).
 - For example. Entry: [("🗿","✂️"), ("✂️","🗿"), ("📄","✂️")]. Result: "Player 2".
 
-As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizard, 
-lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, 
-lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, 
+As Sheldon explains, "Scissors cuts paper, paper covers rock, rock crushes lizard,
+lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard,
+lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has,
 rock crushes scissors."
 
 -------------------------------------------------------------------------------
@@ -66,11 +66,11 @@ results = ([[0, 2, 1, 1, 2],
 
 
 options = {
-    0: "🗿",
-    1: "📄",
-    2: "✂️",
-    3: "🦎",
-    4: "🖖"
+    "🗿": 0,
+    "📄": 1,
+    "✂️": 2,
+    "🦎": 3,
+    "🖖": 4
 }
 
 
@@ -79,11 +79,24 @@ puntuation = [0, 0]
 option_p1 = 0
 option_p2 = 0
 
-# play = results[0][1]
-play = results[options.get("🗿")][options.get("📄")]
 
-# update score after this last play
-update_score(play, puntuation)
+def rock_paper_scissors_lizard_spock(games):
+    for game in games:
+        play = results[options[f"{game[0]}"]][options[f"{game[1]}"]]
 
-# print who wins
-print(f"{winner(puntuation[0], puntuation[1])}")
+        # update score after this last play
+        update_score(play, puntuation)
+
+    # print who wins
+    return f"{winner(puntuation[0], puntuation[1])}"
+
+
+# lets play some matches
+print("Match 1: ")
+rock_paper_scissors_lizard_spock([("🗿", ""), ("✂️", "📄"), ("🖖", "📄")])
+
+# print("\nMatch 2: ")
+# rock_paper_scissors_lizard_spock()
+
+# print("\nMatch 3: ")
+# rock_paper_scissors_lizard_spock()
