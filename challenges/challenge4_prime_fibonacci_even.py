@@ -12,8 +12,9 @@ English
 
 Write a programme that, given a number, checks and shows if it is prime, fibonacci and even.
 Example:
-- Given number 2: "2 is prime, fibonacci and even"
-- Given number 7: "7 is prime, is not fibonacci and odd"
+- Given number 2 : "2 is prime, fibonacci and even"
+- Given number 7 : "7 is prime, is not fibonacci and odd"
+- Given number 34: "34 is not prime, is fibonacci and even"
 """
 
 
@@ -33,7 +34,19 @@ def is_even(number):
 
 def is_fibonacci(number):
     """Return True if is a fibonacci number and False if not"""
-    return True
+    f_1 = 0
+    f_2 = 1
+    aux = 0
+    while aux < number:
+        aux = f_1 + f_2
+
+        if (aux == number):
+            return True
+
+        f_1 = f_2
+        f_2 = aux
+
+    return False
 
 
 def is_prime_fibonacci_even(number):
