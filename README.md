@@ -4,6 +4,6 @@
 ## Challenge list
 Here you will find the challenge list, the resolution date, language and statement.
 
-* **#0** | ['THE FAMOUS "FIZZ BUZZ"'](./challenges/challenge0_the_famous_fizz_buzz.py)
-* **#1** [`EL "LENGUAJE HACKER"`]()
+* **#0** | ['THE FAMOUS "FIZZ BUZZ"'](./challenges/challenge0_the_famous_fizz_buzz.py) | Python
+* **#1** [`"HACKER LANGUAGE"`](./challenges/challenge1_hacker_language.py) | Python
 * **#2** 
