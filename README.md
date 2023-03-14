@@ -2,7 +2,7 @@
 ### The challenges below are from MoureDev's community (all info [here](https://retosdeprogramacion.com/semanales2023)).
 
 ### Challenge list
-Here you will find the challenge list, the resolution date, language and statement.
+Here you will find the challenge list, language and statement of each one.
 
 ---
 * **#0** [`THE FAMOUS "FIZZ BUZZ"`](./challenge0_the_famous_fizz_buzz.py) | Python
