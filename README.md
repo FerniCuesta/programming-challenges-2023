@@ -61,6 +61,11 @@ You can configurate passwords with the following parameters:
 ---
 * **#4** [`PRIME, FIBONACCI & EVEN`](./challenge4_prime_fibonacci_even.py) | Python
 
+Write a programme that, given a number, checks and shows if it is prime, fibonacci and even.
+Example:
+- Given number 2 : "2 is prime, fibonacci and even"
+- Given number 7 : "7 is prime, is not fibonacci and odd"
+- Given number 34: "34 is not prime, is fibonacci and even"
 ---
 
 ---
