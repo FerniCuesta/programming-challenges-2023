@@ -49,6 +49,13 @@ P1 wins
 ---
 * **#3** [`PASSWORD GENERATOR`](./challenge3_random_password_generator.py) | Python
 
+Write a programme that is able to generate random passwords.
+You can configurate passwords with the following parameters:
+- Length: between 8 - 16.
+- With or without capital letters.
+- With or without numbers.
+- With or without symbols.
+(Being able to combine all these parameters between them)
 ---
 
 ---
