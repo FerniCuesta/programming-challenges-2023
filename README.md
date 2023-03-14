@@ -80,6 +80,15 @@ Example:
 ---
 
 ---
-* **#7** [`SORTING HAT`](./challenge7_sorting_hat.py) | Python
+* **#7** [`SORTING HAT`](./challenge7_sorting_hat.py) | Python | In process
+
+Create a programme that imitates the performance of the sorting hat from 
+Harry Potter's magic universe.
+- It will make 5 questions (as least) throught the terminal.
+- Each question will hace 4 possible answers (chosen too throuht the terminal).
+- Depending on the answers to the 5 questions you will design an algorithm that
+put the student in one of the 4 Hogwarts' houses (Gryffindor, Slytherin , Hufflepuff y Ravenclaw).
+- Bear in mind the characteristics of each house to make questions and create the sorting algorithm.
+  For example, in Slytherin is rewarded ambition and astuteness. 
 
 ---
