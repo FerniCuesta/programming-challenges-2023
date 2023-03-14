@@ -21,7 +21,7 @@ by replacing the following:
 Write a programme that receives a text and convert natural language to
 "hacker language" (known as "leet" or "1337"). This language is characterize
 by replacing characters alphanimeric.
-- Use this table (https://www.gamehouse.com/blog/leet-speak-cheat-sheet/)
+- Use this [table](https://www.gamehouse.com/blog/leet-speak-cheat-sheet/)
 with the alphabet and the numbers in "leet".
 (Use this first option from each transformation. For example "4" for "a")
 ---
