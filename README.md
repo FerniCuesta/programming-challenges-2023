@@ -76,6 +76,7 @@ Example:
 ---
 * **#6** [`STONE, PAPER, SCISSORS, LIZARD, SPOCK`](./challenge6_rock_paper_scissors_lizard_spock.py) | Python
 
+
 ---
 
 ---
