@@ -5,6 +5,14 @@
 Here you will find the challenge list, the resolution date, language and statement.
 
 * **#0** [`THE FAMOUS "FIZZ BUZZ"`](./challenge0_the_famous_fizz_buzz.py) | Python
+---
+Write a programme that shows on terminal (with a print) the numbers
+from 1 to 100 (both included and with a line break between each imprint),
+by replacing the following:
+- Multiples of 3 by the word "fizz"
+- Multiples of 5 by the word "buzz"
+- Multiples of 3 & 5 at the same time by the word "fizzbuzz"
+---
 * **#1** [`"HACKER LANGUAGE"`](./challenges/challenge1_hacker_language.py) | Python
 * **#2** [`TENNIS MATCH`](./challenges/challenge2_tennis_match.py) | Python
 * **#3** [`PASSWORD GENERATOR`](./challenges/challenge3_random_password_generator.py) | Python
