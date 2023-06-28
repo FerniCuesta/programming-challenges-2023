@@ -1,5 +1,5 @@
 # Weekly Programming Challenges 2023
-### The challenges below are from MoureDev's community (all info [here](https://retosdeprogramacion.com/semanales2023)).
+### The challenges below are from MoureDev's community (all info [here](https://github.com/mouredev/retos-programacion-2023)).
 
 ### Challenge list
 Here you will find the challenge list, language and statement of each one.
