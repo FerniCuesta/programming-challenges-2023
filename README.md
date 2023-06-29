@@ -30,17 +30,11 @@ Programme that is able to generate random passwords.
 Programme that, given a number, checks and shows if it is prime, fibonacci and even.
 
 ---
-* **#5** `HELLO WORLD` 
- 
-Write "Hello World" in the maximum languages as possible.
-It isn't uploaded because it's so simple.
-
----
 * **#6** [`STONE, PAPER, SCISSORS, LIZARD, SPOCK`](./challenge6_rock_paper_scissors_lizard_spock.py) | Python
 
 Programme that calculates who wins more matches in rock, paper, scissors, lizard, spock.
 
 ---
-* **#7** [`SORTING HAT`](./challenge7_sorting_hat.py) | Python | In process
+* **#9** [`HETEROGRAM, ISOGRAM, PANGRAM`](./challenge9_heterogram_isogram_pangram.py) | Python
 
-Programme that imitates the performance of the sorting hat from Harry Potter's magic universe.
+Programme that detect if a text is a heterogram, an isogram or a pangram.
